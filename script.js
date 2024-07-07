@@ -24,3 +24,26 @@ function go(currentStep, nextStep) {
     dNone.style.display = 'none';
     dBlock.style.display = 'block';
 }
+
+function validation(){
+    const peso = document.getElementById('peso');
+    const altura = document.getElementById('altura');
+
+    if(!peso.value || !altura.value){
+        peso.style.border = '0.5rem solid red';
+        altura.style.border = '0.5rem solid red';
+
+        if(!peso.value && !altura.value){
+            console.log('Faltam inserir peso e altura');
+        }
+        else if(!peso.value){
+            peso.style.border = '0.5rem solid red';
+        }
+        else{
+            altura.style.border = '0.5rem solid red';
+        }   
+    }
+    else (
+        console.log('Prosseguir e calcular.')
+    )
+}
