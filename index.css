@@ -3,3 +3,13 @@
 .second-step, .final-step{
     display: none;
 }
+
+header{
+    background-color: white;
+    align-items: center;
+}
+body{
+    background-color: azure;
+}
+
+.
