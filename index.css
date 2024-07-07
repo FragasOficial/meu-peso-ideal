@@ -1,9 +1,5 @@
 
 
-.first-step{
-    display: none;
-}
-
-.second-step{
+.second-step, .final-step{
     display: none;
 }
