@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu peso ideal</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="globalStyles.css">
+    <script src="./script.js" defer></script>
     
 </head>
 <body>
@@ -18,7 +20,7 @@
     </header>
 
     <div class="container">
-        <div class="rirst-step">
+        <div class="first-step">
             <p>Clique no botão para calcular o IMC.</p>
             <BUTton>Começar agora</BUTton>
         </div>
@@ -31,8 +33,16 @@
             <br>
             <label for="altura">Digite sua altura:</label>
             <input type="number" placeholder="Sua altura" id="altura">
+            <br>
+            <br>
+            <button>Calcular minha altura</button>
         </div>
-        <div class="final-step"></div>
+        <div class="final-step">
+            <h3>Resultado!</h3>
+            <p id="Resultado"></p>
+            <button>Calcular novamente</button>
+            <button>Finalizar</button>
+        </div>
     </div>
     <div>
         <p>Quanto você quer pesar?</p>
