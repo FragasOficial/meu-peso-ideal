@@ -12,4 +12,33 @@ body{
     background-color: azure;
 }
 
-.
+.container{
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 26rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.config-minha-altura{
+    background-color: transparent;
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.config-minha-altura:hover{
+    background-color: white;
+    font-weight: normal;
+    color: red;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
