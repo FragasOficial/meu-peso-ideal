@@ -12,14 +12,21 @@
 <body>
     <header>
         <img src="./image/logo-peso-ideal.webp" alt="">
-        <h1>Sejam bem vindos a calculadora de IMC mais FIEL da internet.</h1>
-        <h2>Acreditamos na sua disciplina e amor próprio.</h2>
     </header>
-
+    <nav>
+        <button>Peso ideal</button>
+        <button>Saudável</button>
+        <button>Fitness</button>
+        <button>Dicas</button>
+        <button>Contato</button>
+    </nav>
+        <h1>Sejam bem vindos ao Meu Peso Ideial!</h1>
+        <h2>Sua calculadora de IMC.</h2>
     <div class="container">
         <div class="first-step">
-            <p>Clique no botão para calcular o IMC.</p>
-            <button onclick="go(1,2)">Começar agora</button>
+                <p>Conferir meu índice de massa corporal.</p>
+                <button onclick="go(1,2)" class="buuton-first">Ver agora</button>
+            
         </div>
         <div class="second-step">
             <h2>Calcular meu IMC</h2>
@@ -32,7 +39,7 @@
             <input type="number" placeholder="Sua altura" id="altura">
             <br>
             <br>
-            <button class="config-minha-altura" onclick="validation">Calcular minha altura</button>
+            <button class="config-minha-altura" onclick="validation()">Calcular minha altura</button>
         </div>
         <div class="final-step">
             <h3>Resultado!</h3>
@@ -41,8 +48,9 @@
             <button>Finalizar</button>
         </div>
     </div>
-    <div>
-        <p>Quanto você quer pesar?</p>
-    </div>
 </body>
+<footer>
+    <p>@FragasTecInove</p>
+    <P>Todos os direitos reservados.</P>
+</footer>
 </html>

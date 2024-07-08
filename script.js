@@ -29,18 +29,21 @@ function validation(){
     const peso = document.getElementById('peso');
     const altura = document.getElementById('altura');
 
+    peso.style.border = 'none';
+    altura.style.border = 'none';
+
     if(!peso.value || !altura.value){
-        peso.style.border = '0.5rem solid red';
-        altura.style.border = '0.5rem solid red';
+        peso.style.border = '0.1rem solid green';
+        altura.style.border = '0.1rem solid green';
 
         if(!peso.value && !altura.value){
             console.log('Faltam inserir peso e altura');
         }
         else if(!peso.value){
-            peso.style.border = '0.5rem solid red';
+            peso.style.border = '0.02rem solid red';
         }
         else{
-            altura.style.border = '0.5rem solid red';
+            altura.style.border = '0.02rem solid red';
         }   
     }
     else (

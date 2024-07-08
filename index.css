@@ -1,4 +1,54 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+
+}
+
+h1{
+    font-size: 1.8rem;
+    padding-top: 4rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    padding-top: 1.5rem;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+button{
+    font-size: large;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    margin: auto;
+    border: 0.1rem solid #02779e;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background-color: #02779e;
+    border: none;
+    color: white;
+}
+
+img{
+    margin-bottom: 2rem;
+}
 
 .second-step, .final-step{
     display: none;
@@ -8,17 +58,39 @@ header{
     background-color: white;
     align-items: center;
 }
-body{
-    background-color: azure;
+
+.first-step{
+    height: 5rem;
+}
+
+.buuton-first{
+    width: 7rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: 0.15rem solid white;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 28.5%;
+}
+
+.buuton-first:hover{
+    background-color: yellow;
+    color: black;
+    
 }
 
 .container{
-    background-color: blue;
+    background-color: #02779e;
     color: white;
     margin: auto;
-    width: 26rem;
-    padding: 1rem;
-    border-radius: 1rem;
+    width: 21rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 
 .config-minha-altura{
@@ -41,4 +113,21 @@ body{
 
 h1, h2, h3{
     text-align: center;
+}
+
+#altura, #peso{
+    outline: none;
+}
+
+
+footer{
+    height: 6rem;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    padding-top: 3.58rem;
+    margin-top: 3rem;
 }
