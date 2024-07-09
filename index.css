@@ -14,8 +14,9 @@ h1{
 }
 
 h2{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     padding-top: 1.5rem;
+
 }
 
 header{
@@ -60,10 +61,14 @@ header{
 }
 
 .first-step{
-    height: 5rem;
+    height: 6rem;
 }
 
-.buuton-first{
+.firstParagraph{
+    margin-left: 10%;
+}
+
+.button-first{
     width: 7rem;
     height: 2.5rem;
     font-size: 1.2rem;
@@ -73,12 +78,14 @@ header{
     color: black;
     cursor: pointer;
     margin-top: 1rem;
-    margin-left: 28.5%;
+    margin-left: 37%;
+    margin-top: 1.5rem;
 }
 
-.buuton-first:hover{
+.button-first:hover{
     background-color: yellow;
     color: black;
+    font-weight: bold;
     
 }
 
@@ -86,7 +93,7 @@ header{
     background-color: #02779e;
     color: white;
     margin: auto;
-    width: 21rem;
+    width: 26rem;
     padding: 1.5rem;
     border-radius: 0.5rem;
     margin-top: 2rem;
@@ -94,21 +101,25 @@ header{
 }
 
 .config-minha-altura{
-    background-color: transparent;
-    color: white;
-    border: 0.1rem solid white;
+    background-color: white;
+    color:  #02779e;
+    border: 0.14rem solid white;
     border-radius: 1rem;
     cursor: pointer;
-    width: 10rem;
-    height: 2rem;
-    font-size: 0.8rem;
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
     font-weight: bold;
+    margin-left: 70%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .config-minha-altura:hover{
     background-color: white;
     font-weight: normal;
-    color: red;
+    color: black;
+    font-weight: bold;
 }
 
 h1, h2, h3{
@@ -117,12 +128,58 @@ h1, h2, h3{
 
 #altura, #peso{
     outline: none;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.final-step{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 1.3rem;
+}
+
+#display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.configCalcular, .configFinalizar{
+    background-color: white;
+    font-size: 1rem;
+    width: 7rem;
+    border-radius: 40rem;
+    margin-right: 1rem;
+    margin-left: 1.5rem;
+    color: black;
+}
+
+
+.configFinalizar:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.configCalcular:hover{
+    color: #02779e;
+    font-weight: bold;
+    background-color: white;
+}
+
+.resultadoFinal{
+    margin-bottom: 1rem;
 }
 
 
 footer{
     height: 6rem;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(97, 97, 97);
     color: white;
     font-size: 1rem;
     text-align: center;
