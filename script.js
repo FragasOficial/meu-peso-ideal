@@ -224,7 +224,7 @@ function validation() {
 
     } else if (imc >= 25 && imc < 30) {
         result.style.color = 'yellow';
-        result.innerHTML = 'Você está acima do peso. Obesidade nível 1. Cuide da sua saúde!';
+        result.innerHTML = 'Você está acima do peso. Obesidade nível 1. Cuide da sua alimentação!';
 
     } else if (imc >= 30 && imc < 40) {
         result.style.color = 'yellow';

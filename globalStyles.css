@@ -1,2 +1,65 @@
 @import url(./reset.css);
 @import url(./index.css);
+
+@media(max-width: 450px){
+    body{
+        font-size: 0.5rem;
+    }
+    nav{
+        display: inline-block;
+        padding-left: 0.5rem;
+    }
+    header{
+        display: flex;
+    }
+    img{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .container{
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .firstParagraph{
+        font-size: 1.2rem;
+    }
+
+    .button-first{
+        margin: auto 28%;
+        margin-top: 1.35rem;
+        font-size: 1.2rem;
+    }
+
+    #peso, #altura, label{
+        font-size: 1rem;
+    }
+
+    .config-minha-altura{
+        margin: auto 48%;
+        margin-top: 1.5rem;
+    }
+
+    button{
+        width: 6rem;
+        font-size: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .configCalcular, .configFinalizar{
+        width: 8rem;
+        font-size: 1rem;
+        display: block;
+        margin: 0.5rem auto;
+        border-radius: 0.8rem;
+    }
+
+    .configCalcular{
+        margin-top: 2rem;
+    }
+
+}
