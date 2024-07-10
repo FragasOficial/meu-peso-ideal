@@ -28,14 +28,27 @@
         font-size: 1.2rem;
     }
 
-    .button-first{
-        margin: auto 28%;
-        margin-top: 1.35rem;
-        font-size: 1.2rem;
+    .first-step{
+        margin: auto;
     }
 
-    #peso, #altura, label{
-        font-size: 1rem;
+    .button-first{
+        margin-top: 1.35rem;
+        font-size: 1.2rem;
+        justify-content: center;
+
+    }
+
+    hr{
+        margin-bottom: 1.3rem;
+    }
+
+    .fontLaber{
+        font-size: 1.3rem;
+    }
+
+    #peso, #altura{
+        font-size: 1.2rem;
     }
 
     .config-minha-altura{
@@ -45,7 +58,7 @@
 
     button{
         width: 6rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
         align-items: center;
         text-align: center;
     }
