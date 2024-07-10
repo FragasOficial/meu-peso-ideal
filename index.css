@@ -41,11 +41,11 @@ button{
     color: black;
 }
 
-button:hover{
+/* button:hover{
     background-color: #02779e;
     border: none;
     color: white;
-}
+} */
 
 img{
     margin-bottom: 2rem;
@@ -189,3 +189,6 @@ footer{
     padding-top: 3.58rem;
     margin-top: 3rem;
 }
+
+/*ESTILO DA PAGINA IMC*/
+
